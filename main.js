@@ -89,7 +89,7 @@ function DisplayTodoLists() {
       edit.classList.add("edit");
       deleteButton.classList.add("delete");
 
-      content.innerHTML = `<input type="text" value="${todo.content}" readonly>`;
+      content.innerHTML = `<input class="pip" type="text" value="${todo.content}" readonly>`;
       edit.innerHTML = "Edit";
       deleteButton.innerHTML = "Delete";
 

@@ -290,3 +290,7 @@ add:hover {
   flex: 1 1 300px;
   align-self: stretch;
 }
+
+.pip {
+  width: 100%;
+}
